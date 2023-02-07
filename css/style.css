@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: Poppins; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  background-color: #BFEAF5;
+  position: relative; }
+
+.qr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%); }
+  .qr-box {
+    max-width: 28rem;
+    height: 41.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    background-color: white;
+    text-align: center; }
+    .qr-box__image {
+      padding: 1.3rem 1rem 1rem 1rem; }
+      .qr-box__image .image {
+        height: 100%;
+        max-width: 25em;
+        border-radius: 1rem; }
+    .qr-box__title {
+      color: black;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 0 3rem 0 3rem; }
+    .qr-box__text {
+      padding: 1.5rem 5rem 0.1rem 5rem;
+      font-size: 1rem;
+      color: grey; }
